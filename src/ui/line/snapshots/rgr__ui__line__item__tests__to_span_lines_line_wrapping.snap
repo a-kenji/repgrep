@@ -3,7 +3,7 @@ source: src/ui/line/item.rs
 expression: new_item(RG_JSON_MATCH_LINE_WRAP).to_span_lines(&ctx)
 ---
 [
-    Spans(
+    Line(
         [
             Span {
                 content: "3:",
@@ -29,7 +29,7 @@ expression: new_item(RG_JSON_MATCH_LINE_WRAP).to_span_lines(&ctx)
             },
         ],
     ),
-    Spans(
+    Line(
         [
             Span {
                 content: "9*123456789(123456789_",

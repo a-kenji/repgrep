@@ -1,5 +1,5 @@
 use regex::bytes::Regex;
-use tui::layout::Rect;
+use ratatui::layout::Rect;
 
 use crate::model::PrintableStyle;
 use crate::ui::app::{AppListState, AppUiState};
